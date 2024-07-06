@@ -3,6 +3,7 @@ import app from './app'
 import { Server } from 'http'
 import config from './app/config'
 
+
 let server: Server
 
 async function main() {
@@ -15,7 +16,7 @@ async function main() {
 main()
 
 process.on('unhandledRejection', () => {
-  console.log(`👿 unhandledRejection detected, shuting down`)
+  console.log(`unhandledRejection detected, shuting down`)
   if (server) {
     server.close(() => {
       process.exit(1)
@@ -25,6 +26,6 @@ process.on('unhandledRejection', () => {
 })
 
 process.on('uncaughtException', () => {
-  console.log(`👿 uncaughtException detected, shuting down...`)
+  console.log(`uncaughtException detected, shuting down...`)
   process.exit(1)
 })
