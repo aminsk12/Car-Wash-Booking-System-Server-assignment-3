@@ -12,7 +12,7 @@ app.use(express.json())
 //app.use('/', routes)
 
 app.get('/', (req, res) => {
-  res.send('Car Wash Booking Server is running...')
+  res.send('Car Wash Booking Server is running...!')
 })
 
 // customize error
