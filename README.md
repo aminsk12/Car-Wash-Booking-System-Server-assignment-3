@@ -37,7 +37,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/Sakib-Atreus/Car-Wash-Booking-System-Server
+   https://github.com/aminsk12/Car-Wash-Booking-System-Server-assignment-3
    ```
 2. **Navigate to the project directory:**
    ```sh
@@ -67,7 +67,7 @@ Follow these steps to set up the project locally:
 
 ## Contact
 
-If you have any questions or need further assistance, please contact sakibatreus@gmail.com
+If you have any questions or need further assistance, please contact aminskeh786@gmail.com
 
 ---
 

@@ -1,3 +1,4 @@
+
 import catchAsync from '../../utility/catchAsync'
 import sendResponse from '../../utility/sendResponse'
 import { SlotServices } from './slot.service'

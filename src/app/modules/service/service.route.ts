@@ -1,9 +1,11 @@
 import { Router } from 'express'
 import { ServiceControllers } from './service.controller'
-import validateRequest from '../../middleware/validateRequest'
+
 import { ServiceValidations } from './service.validation'
-import auth from '../../middleware/auth'
+
 import { USER_ROLE } from '../user/user.constant'
+import auth from '../../middleware/auth'
+import validateRequest from '../../middleware/validateRequest'
 
 const router = Router()
 

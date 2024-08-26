@@ -6,7 +6,7 @@ import { TLoginUser } from './auth.interface'
 import status from 'http-status'
 import jwt from 'jsonwebtoken'
 import bcrypt from 'bcrypt'
-import config from '../../app/config'
+import config from '../../config'
 
 const registeredUserIntoDB = async (payload: TUser) => {
   const result = await User.create(payload)
