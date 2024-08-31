@@ -1,6 +1,6 @@
 # Car Wash Booking System
 
-## Live Server URL: https://car-wash-booking-system-cyan.vercel.app/
+## Live Server URL: https://car-wash-booking-system-server-assignment.vercel.app/
 
 ## Table of Contents
 
